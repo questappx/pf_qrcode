@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_item1"
+        android:icon="@drawable/baseline_qr_code_scanner_24"
+        android:title="Scan" />
+    <item
+        android:id="@+id/navigation_item2"
+        android:icon="@drawable/baseline_history_24"
+        android:title="History" />
+    <item
+        android:id="@+id/navigation_item3"
+        android:icon="@drawable/baseline_favorite_border_24"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/navigation_item4"
+        android:icon="@drawable/baseline_create_24"
+        android:title="Create" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_item5"-->
+<!--        android:icon="@drawable/baseline_settings_24"-->
+<!--        android:title="Settings" />-->
+</menu>

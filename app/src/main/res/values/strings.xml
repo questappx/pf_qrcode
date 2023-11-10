@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">QR Code</string>
+    <string name="file_name" translatable="false">QR Code by Photofiesta</string>
+    <string name="scanPref" translatable="false">ScanPref</string>
+    <string name="appOpenAd" translatable="false">ca-app-pub-7322834004447575/5046206911</string>
+    <string name="googleInterstitial" translatable="false">ca-app-pub-7322834004447575/6527589793</string>
+    <string name="googleAppId" translatable="false">ca-app-pub-7322834004447575~2611615268</string>
+    <string name="admobBanner" translatable="false">ca-app-pub-7322834004447575/4092998146</string>
+</resources>

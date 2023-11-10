@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/eventInputLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <!-- Event Title Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/calendarTitleInputLayout"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Title*">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/calendarTitleTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Date Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <!-- Start Date Input -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/calendarStartDateInputLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:hint="Start Date*">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calendarStartDateTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- End Date Input -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/calendarEndDateInputLayout"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="End Date*">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calendarEndDateTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <!-- Event Description Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/calendarDescriptionInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Event Description">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/calendarDescriptionTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Location Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/calendarLocationInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Location">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/calendarLocationTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "example.zxing-merged_res-25:/drawable-hdpi_icon.png.flat",
+        "source": "example.zxing-main-27:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/drawable-xhdpi_icon.png.flat",
+        "source": "example.zxing-main-27:/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/drawable-xxhdpi_icon.png.flat",
+        "source": "example.zxing-main-27:/drawable-xxhdpi/icon.png"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_activity_custom_scanner.xml.flat",
+        "source": "example.zxing-main-27:/layout/activity_custom_scanner.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_capture_appcompat.xml.flat",
+        "source": "example.zxing-main-27:/layout/capture_appcompat.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/menu_menu_tabbed_scanning.xml.flat",
+        "source": "example.zxing-main-27:/menu/menu_tabbed_scanning.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/drawable-mdpi_icon.png.flat",
+        "source": "example.zxing-main-27:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_activity_tabbed_scanning.xml.flat",
+        "source": "example.zxing-main-27:/layout/activity_tabbed_scanning.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "example.zxing-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_fragment_tabbed_camera.xml.flat",
+        "source": "example.zxing-main-27:/layout/fragment_tabbed_camera.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_continuous_scan.xml.flat",
+        "source": "example.zxing-main-27:/layout/continuous_scan.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_fragment_scan.xml.flat",
+        "source": "example.zxing-main-27:/layout/fragment_scan.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_custom_barcode_scanner.xml.flat",
+        "source": "example.zxing-main-27:/layout/custom_barcode_scanner.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_fragment_tabbed_scanning.xml.flat",
+        "source": "example.zxing-main-27:/layout/fragment_tabbed_scanning.xml"
+    },
+    {
+        "merged": "example.zxing-merged_res-25:/layout_capture_small.xml.flat",
+        "source": "example.zxing-main-27:/layout/capture_small.xml"
+    }
+]

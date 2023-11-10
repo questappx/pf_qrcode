@@ -1,0 +1,64 @@
+<!-- res/layout/item_history.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_margin="5dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/qrTypeImageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@color/grey"
+        android:scaleType="centerInside"
+        android:src="@drawable/baseline_qr_code_scanner_24"
+    android:contentDescription="QR Code Type" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Scanned Content" />
+
+        <TextView
+            android:id="@+id/timestampTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="10sp"
+            android:text="Timestamp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/baseline_favorite_border_24"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Favorite"
+        />
+
+    <ImageButton
+        android:id="@+id/optionsMenuButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/baseline_more_vert_24"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Options Menu" />
+
+
+</LinearLayout>

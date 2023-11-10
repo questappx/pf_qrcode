@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/barcode_scanner"
+        android:left="35dp"
+        android:top="35dp"
+        android:right="35dp"
+        android:bottom="35dp"
+    />
+</layer-list>
